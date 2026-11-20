@@ -1,0 +1,75 @@
+
+# ==========================================
+# 1. SECRETS & ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+credentials.json
+.streamlit/secrets.toml
+
+# ==========================================
+# 2. PYTHON ENVIRONMENTS & CACHE
+# ==========================================
+.venv/
+.venv311/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# 3. STREAMLIT AGENT SKILLS
+# ==========================================
+.agents/skills/developing-with-streamlit
+.claude/skills/developing-with-streamlit
+
+# ==========================================
+# 4. NODE.JS / FRONTEND UI
+# ==========================================
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 5. AI MODELS & GENERATED DATA
+# ==========================================
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.onnx
+models/
+checkpoints/
+chroma_db/
+faiss_index/
+qdrant_storage/
+*.sqlite3
+*.db
+
+# ==========================================
+# 6. LOGS & TEMPORARY FILES
+# ==========================================
+logs/
+*.log
+chat_history/
+uploads/
+temp_docs/
+
+# ==========================================
+# 7. IDE & OPERATING SYSTEM
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
